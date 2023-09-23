@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-size: cover;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    94.3deg,
+    rgba(104, 213, 253, 0.63) 0.7%,
+    rgba(169, 236, 91, 0.79) 18.6%,
+    rgba(253, 246, 116, 0.98) 39.1%,
+    rgba(255, 164, 120, 0.92) 63%,
+    rgba(250, 115, 188, 0.89) 85.3%,
+    rgb(97, 176, 242) 108.2%
+  );
+
+  border-radius: 35px;
+  border: 2px solid white;
+  filter: drop-shadow(0 0 0.75rem #ffffff);
+}
+.nav-bar h4 {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+  margin-right: 90px;
+  font-size: 35px;
+  font-family: "Quattrocento", serif;
+}
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: "Quattrocento", serif;
+}
+.nav-bar a:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+.container {
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Quattrocento", serif;
+}
+#btn {
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: 5px dotted #f2fc64;
+  background-color: white;
+  font-family: "Quattrocento", serif;
+}
+#btn:hover {
+  background-color: #f2fc64;
+  border: 5px dotted white;
+}
