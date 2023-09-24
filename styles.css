@@ -19,7 +19,7 @@ body {
   border-radius: 35px;
   border: 2px solid white;
   filter: drop-shadow(0 0 0.75rem #ffffff);
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 .nav-bar h4 {
   color: white;
@@ -50,6 +50,7 @@ body {
   border: 5px dotted #f2fc64;
   background-color: white;
   font-family: "Quattrocento", serif;
+  margin-bottom: 20px;
 }
 #btn:hover {
   background-color: #f2fc64;
@@ -62,3 +63,16 @@ body {
 a.active{
   font-size: 30px;
 }
+
+/*GIFs*/
+
+.html-image{
+  
+  background-color: transparent;
+  mix-blend-mode: multiply;
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height:100px;
+}
+
