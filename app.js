@@ -1,4 +1,4 @@
-const colors = ["#fbccff", "#b2e5ff"];
+const colors = ["#fbccff", "#b2e5ff", "#ccffcf", "#fdffcc"];
 const button = document.getElementById("btn");
 const color = document.querySelector(".color");
 const simpleBtn = document.getElementById("simple");
